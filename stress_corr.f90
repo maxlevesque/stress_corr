@@ -7,7 +7,7 @@ program stress_corr_ext
 
     integer, parameter :: nummax=648
     integer, parameter :: nfilemax=10
-    integer, parameter :: ncorrtimemax=25000
+    integer, parameter :: ncorrtimemax=500000
 
     double precision xx,xy,xz,yy,yz,zz
     double precision dtime,dtimerec,dtime2
@@ -131,7 +131,7 @@ program stress_corr_ext
     implicit none
 
     integer, parameter :: nummax=648
-    integer, parameter :: ncorrtimemax=25000
+    integer, parameter :: ncorrtimemax=500000
 
     double precision xx,xy,xz,yy,yz,zz
 
@@ -228,7 +228,7 @@ program stress_corr_ext
 
     implicit none
 
-    integer, parameter :: ncorrtimemax=25000
+    integer, parameter :: ncorrtimemax=500000
 
     double precision cf1, cf2, cf3, cf4, cf5
     double precision dtime, dtimerec, dtime2

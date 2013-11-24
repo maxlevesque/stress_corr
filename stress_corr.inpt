@@ -1,9 +1,9 @@
 41.341             Time step
-50                 No. of steps between outputs
+1                 No. of steps between outputs
 1                  Number of stress tensor files to read from.
 ./xyxzyzstress.out
 ./xxyyzzstress.out
-100000             Number of coordinate sets in file 1.
+500000             Number of coordinate sets in file 1.
 1                nskip
-500               Time-span of the correlation function (in steps).
+500000              Time-span of the correlation function (in steps). The bigger the better
 
